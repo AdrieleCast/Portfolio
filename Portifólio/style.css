@@ -1,0 +1,413 @@
+body{
+  background-color: black;
+}
+
+h1{
+  color: black;
+ 
+}
+
+h2{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 6px darkmagenta, 2px 2px 20px white, 0 0 5px darkmagenta;
+}
+
+h3{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 3px 5px;
+  text-shadow: 1px 1px 6px darkmagenta, 2px 2px 20px white, 0 0 5px darkmagenta;
+}
+h4{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 3px 5px;
+  text-shadow: 1px 1px 6px darkmagenta, 2px 2px 20px white, 0 0 5px darkmagenta;
+}
+h5{
+  color: white;
+  text-shadow: 1px 1px 6px black, 2px 2px 20px white, 0 0 5px black;
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+}
+div{
+  padding: 30px;
+}
+p{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  font-style: italic;
+}
+
+img{
+  width: 50%;
+  box-shadow: 2px 2px 20px darkmagenta;
+  display: block;
+  margin: auto;
+}
+a{
+text-decoration: none;
+list-style: none;
+float: right;
+color: white;
+padding: 1px 7px;
+font-size: 18px;
+}
+a:link{
+  color: white;
+}
+a:visited{
+  color: pink;
+}
+a:hover{
+  color: white;
+  background-color: hotpink;
+  border-radius: 10px;
+}
+
+.logo {
+  float: left;
+  padding: 3px 5px;
+}
+
+/* Style the Cabeçalho */
+.Cabeçalho {
+  background-color: rgba(139, 0, 139, 0.575);
+  padding: 15px;
+  text-align: right;
+  position: fixed;
+  height: 50px;
+  width: 1305px;
+}
+
+.Cabeçalho li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Style the navigation */
+.Contatos {
+  overflow: hidden;
+  background-color: darkmagenta;
+}
+
+footer{
+  color: white;
+  font-size: 15px;
+  background-color: rgb(102, 16, 102);
+  text-align: center;
+  padding: 10px 0;
+}
+
+.github {
+  outline: 0 none;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 55px;
+  padding: 0px;
+  margin-right: 10px; 
+  color: #ffffff;
+  font-size: 1.5em;
+  text-align:center;
+  text-decoration: none;
+  border: 0 none;
+  background:hsl(0 0% 10%);
+  background: radial-gradient(circle at 30% 107%, #0c0c0c 0%, #3f3e3e 5%, #6e6e6e 45%,#949393 60%,#fdfdfd 90%);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 20px rgba(63, 114, 155, 0), inset 0 0 5px #386589, 0 1px 1px 1px rgba(255, 255, 255, 0.4);
+  -moz-box-shadow: 0 0 0 20px rgba(63, 114, 155, 0), inset 0 0 5px #386589, 0 1px 1px 1px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 0 20px rgba(63, 114, 155, 0), inset 0 0 5px #386589, 0 1px 1px 1px rgba(255, 255, 255, 0.4);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.github:hover,
+.github:focus {
+  background-color: #e93e75;
+  -webkit-box-shadow: 0 0 0 10px #c9caca, inset 0 0 0 0 #c9caca, 0 0 5px 2px #13222e;
+  -moz-box-shadow: 0 0 0 10px #858888, inset 0 0 0 0 #818383 0 0 5px 2px #13222e;
+  box-shadow: 0 0 0 10px #c9cacaa4, inset 0 0 0 0 #8b8b8b, 0 0 5px 2px #13222e;
+}
+.instagram {
+  outline: 0 none;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 55px;
+  padding: 0px;
+  margin-right: 10px; 
+  color: #ffffff;
+  font-size: 1.5em;
+  text-align:center;
+  text-decoration: none;
+  border: 0 none;
+  background:hsl(0 0% 10%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 20px rgba(63, 114, 155, 0), inset 0 0 5px #386589, 0 1px 1px 1px rgba(255, 255, 255, 0.4);
+  -moz-box-shadow: 0 0 0 20px rgba(63, 114, 155, 0), inset 0 0 5px #386589, 0 1px 1px 1px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 0 20px rgba(63, 114, 155, 0), inset 0 0 5px #386589, 0 1px 1px 1px rgba(255, 255, 255, 0.4);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.instagram:hover,
+.instagram:focus {
+  background-color: #e93e75;
+  -webkit-box-shadow: 0 0 0 10px rgba(84, 140, 185, 0.5), inset 0 0 0 0 #3f729b, 0 0 5px 2px #13222e;
+  -moz-box-shadow: 0 0 0 10px rgba(84, 140, 185, 0.5), inset 0 0 0 0 #3f729b, 0 0 5px 2px #13222e;
+  box-shadow: 0 0 0 10px rgba(84, 140, 185, 0.5), inset 0 0 0 0 #3f729b, 0 0 5px 2px #13222e;
+}
+.instagram:hover,
+.instagram:focus {
+  text-shadow: -1px -1px #305777;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.instagram:active,
+.instagram:checked {
+  background-color: #386589;
+  -webkit-box-shadow: 0 0 0 10px rgba(56, 101, 137, 0.5);
+  -moz-box-shadow: 0 0 0 10px rgba(56, 101, 137, 0.5);
+  box-shadow: 0 0 0 8.33333333px rgba(56, 101, 137, 0.5);
+  -webkit-box-shadow: 0 0 0 10px rgba(56, 101, 137, 0.5), inset 0 0 0 0 #305777;
+  -moz-box-shadow: 0 0 0 10px rgba(56, 101, 137, 0.5), inset 0 0 0 0 #305777;
+  box-shadow: 0 0 0 10px rgba(56, 101, 137, 0.5), inset 0 0 10px #13222e;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+.instagram:active,
+.instagram:checked {
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.linkedin {
+  outline: 0 none;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 55px;
+  padding: 0px;
+  margin-right: 10px; 
+  color: #ffffff;
+  font-size: 1.5em;
+  text-align:center;
+  text-decoration: none;
+  border: 0 none;
+  background-color: rgba(0, 172, 238, 0.8);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 20px rgba(0, 172, 238, 0), inset 0 0 5px #009ad5, 0 1px 1px 1px rgba(255, 255, 255, 0.4);
+  -moz-box-shadow: 0 0 0 20px rgba(0, 172, 238, 0), inset 0 0 5px #009ad5, 0 1px 1px 1px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 0 20px rgba(0, 172, 238, 0), inset 0 0 5px #009ad5, 0 1px 1px 1px rgba(255, 255, 255, 0.4);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.linkedin:hover,
+.linkedin:focus {
+  background-color: #00acee;
+  -webkit-box-shadow: 0 0 0 10px rgba(34, 194, 255, 0.5), inset 0 0 0 0 #00acee, 0 0 5px 2px #003d55;
+  -moz-box-shadow: 0 0 0 10px rgba(34, 194, 255, 0.5), inset 0 0 0 0 #00acee, 0 0 5px 2px #003d55;
+  box-shadow: 0 0 0 10px rgba(34, 194, 255, 0.5), inset 0 0 0 0 #00acee, 0 0 5px 2px #003d55;
+}
+.linkedin:hover,
+.linkedin:focus {
+  text-shadow: -1px -1px #0087bb;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.linkedin:active,
+.linkedin:checked {
+  background-color: #009ad5;
+  -webkit-box-shadow: 0 0 0 10px rgba(0, 154, 213, 0.5);
+  -moz-box-shadow: 0 0 0 10px rgba(0, 154, 213, 0.5);
+  box-shadow: 0 0 0 8.33333333px rgba(0, 154, 213, 0.5);
+  -webkit-box-shadow: 0 0 0 10px rgba(0, 154, 213, 0.5), inset 0 0 0 0 #0087bb;
+  -moz-box-shadow: 0 0 0 10px rgba(0, 154, 213, 0.5), inset 0 0 0 0 #0087bb;
+  box-shadow: 0 0 0 10px rgba(0, 154, 213, 0.5), inset 0 0 10px #003d55;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+.linkedin:active,
+.linkedin:checked {
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.pinterest {
+  outline: 0 none;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 55px;
+  padding: 0px;
+  margin-right: 10px; 
+  color: #ffffff;
+  font-size: 1.5em;
+  text-align:center;
+  text-decoration: none;
+  border: 0 none;
+  background-color: rgba(200, 35, 44, 0.8);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 20px rgba(200, 35, 44, 0), inset 0 0 5px #b21f27, 0 1px 1px 1px rgba(255, 255, 255, 0.4);
+  -moz-box-shadow: 0 0 0 20px rgba(200, 35, 44, 0), inset 0 0 5px #b21f27, 0 1px 1px 1px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 0 20px rgba(200, 35, 44, 0), inset 0 0 5px #b21f27, 0 1px 1px 1px rgba(255, 255, 255, 0.4);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.pinterest:hover,
+.pinterest:focus {
+  background-color: #c8232c;
+  -webkit-box-shadow: 0 0 0 10px rgba(222, 64, 73, 0.5), inset 0 0 0 0 #c8232c, 0 0 5px 2px #460c0f;
+  -moz-box-shadow: 0 0 0 10px rgba(222, 64, 73, 0.5), inset 0 0 0 0 #c8232c, 0 0 5px 2px #460c0f;
+  box-shadow: 0 0 0 10px rgba(222, 64, 73, 0.5), inset 0 0 0 0 #c8232c, 0 0 5px 2px #460c0f;
+}
+.pinterest:hover,
+.pinterest:focus {
+  text-shadow: -1px -1px #9d1b22;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.pinterest:active,
+.pinterest:checked {
+  background-color: #b21f27;
+  -webkit-box-shadow: 0 0 0 10px rgba(178, 31, 39, 0.5);
+  -moz-box-shadow: 0 0 0 10px rgba(178, 31, 39, 0.5);
+  box-shadow: 0 0 0 8.33333333px rgba(178, 31, 39, 0.5);
+  -webkit-box-shadow: 0 0 0 10px rgba(178, 31, 39, 0.5), inset 0 0 0 0 #9d1b22;
+  -moz-box-shadow: 0 0 0 10px rgba(178, 31, 39, 0.5), inset 0 0 0 0 #9d1b22;
+  box-shadow: 0 0 0 10px rgba(178, 31, 39, 0.5), inset 0 0 10px #460c0f;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+.pinterest:active,
+.pinterest:checked {
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+.img-insta {
+  margin-top: 8px;
+  margin-left: 8px;
+ height: 35px;
+ width: 35px; 
+}
+
+.img-pint {
+  margin-top: 8px;
+  margin-left: 8px;
+ height: 35px;
+ width: 35px; 
+}
+
+.logo {
+  height: 40px;
+  width: 45px;
+  border-radius: 13px;
+}
+
+.img-linkedin {
+  height: 35px;
+  width: 35px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
